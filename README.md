@@ -1,2 +1,140 @@
-# final-project
-final project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surga Hewan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ca6c08;
+            color: #0ca2f2;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #3498db;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #ca6c08;
+            color: white;
+            padding: 10px;
+        }
+        section {
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        article {
+            width: 30%;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        article:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        article div {
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #3498db;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: white;
+        }
+        .next-template-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ca6c08;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .next-template-btn:hover {
+            background-color: #ca6c08 ;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="Puppies.html">Dogs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Kittens.html">Cats</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Birds.html">Birds</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="html.finalprojectwebdesign.html">Main page</a>
+        </li>
+
+        <!-- Add more navigation items if needed -->
+    </ul>
+</nav>
+
+    <header>
+        <h1>SELAMAT DATANG DI SURGA HEWAN </h1>
+    </header>
+
+    <section>
+        <article>
+            <img src="C:\Users\NENG\Pictures\Saved Pictures\asu2.jpg" alt="Dog">
+            <div>
+                <h2>Cute Puppies</h2>
+                <p>kami punya macam macam anak anjing lucu yang sempurna untuk anda dan cocok untuk menjadi teman anda     </p>
+            </div>
+        </article>
+
+        <article>
+            <img src="C:\Users\NENG\Pictures\Saved Pictures\ucing.jpg" alt="Cat">
+            <div>
+                <h2>Cuddly Kittens</h2>
+                <p>Temui kucing menggemaskan kami yang akan mencuri hati Anda. Masing-masing hadir dengan keimutan yang unik dan seikat kegembiraan.</p>
+            </div>
+        </article>
+
+        <article>
+            <img src="C:\Users\NENG\Pictures\Saved Pictures\burung lucu.jpg" alt="Bird">
+            <div>
+                <h2>Melodious Birds</h2>
+                <p>Berbagai jenis burung yang sangat indah yang siap bernyanyi merdu dengan kicauannya di pagi hari</p>
+            </div>
+        </article>
+    </section>
+
+    <a href="next_template.html" class="next-template-btn">Next Template</a>
+
+    <footer>
+        <p>&copy; 2023 SURGA HEWAN. All rights reserved. Di buat dengan cinta oleh Bryan Babthista Richardo Renyut</p>
+    </footer>
+
+</body>
+</html>
